@@ -1,0 +1,112 @@
+<skeleton>
+	<bones>
+		<bone id="2" name="Ring.1">
+			<position x="1.150907" y="0.053718" z="0.176964"/>
+			<rotation angle="2.094395">
+				<axis x="-0.577350" y="-0.577350" z="-0.577350"/>
+			</rotation>
+		</bone>
+		<bone id="3" name="Hand">
+			<position x="-0.011566" y="0.004561" z="-0.026406"/>
+			<rotation angle="2.089906">
+				<axis x="0.578100" y="0.576500" z="-0.577449"/>
+			</rotation>
+		</bone>
+		<bone id="4" name="Index.1">
+			<position x="1.113199" y="0.064475" z="-0.344052"/>
+			<rotation angle="1.933356">
+				<axis x="-0.585332" y="-0.514799" z="-0.626393"/>
+			</rotation>
+		</bone>
+		<bone id="8" name="Thumb.1">
+			<position x="0.599248" y="-0.300160" z="-0.348395"/>
+			<rotation angle="2.968614">
+				<axis x="-0.702990" y="-0.702721" z="0.109489"/>
+			</rotation>
+		</bone>
+		<bone id="9" name="Middle.1">
+			<position x="1.165764" y="0.073100" z="-0.093161"/>
+			<rotation angle="2.094395">
+				<axis x="-0.577350" y="-0.577350" z="-0.577350"/>
+			</rotation>
+		</bone>
+		<bone id="15" name="Little.1">
+			<position x="1.141259" y="-0.034196" z="0.366048"/>
+			<rotation angle="2.179652">
+				<axis x="-0.521845" y="-0.603191" z="-0.603191"/>
+			</rotation>
+		</bone>
+		<bone id="0" name="Ring.2">
+			<position x="0.000000" y="0.381325" z="0.000000"/>
+			<rotation angle="0.000000">
+				<axis x="0.000000" y="-1.000000" z="0.000000"/>
+			</rotation>
+		</bone>
+		<bone id="7" name="Index.2">
+			<position x="-0.000000" y="0.441092" z="-0.000000"/>
+			<rotation angle="0.035224">
+				<axis x="-0.353692" y="-0.164868" z="0.920717"/>
+			</rotation>
+		</bone>
+		<bone id="5" name="Thumb.2">
+			<position x="0.000000" y="0.441092" z="-0.000000"/>
+			<rotation angle="0.097764">
+				<axis x="0.979048" y="-0.137696" z="0.150019"/>
+			</rotation>
+		</bone>
+		<bone id="11" name="Middle.2">
+			<position x="0.000000" y="0.441092" z="-0.000000"/>
+			<rotation angle="0.000000">
+				<axis x="0.000000" y="-1.000000" z="0.000000"/>
+			</rotation>
+		</bone>
+		<bone id="12" name="Little.2">
+			<position x="-0.000000" y="0.308003" z="-0.000000"/>
+			<rotation angle="0.012138">
+				<axis x="-0.000013" y="-0.000013" z="1.000000"/>
+			</rotation>
+		</bone>
+		<bone id="1" name="Ring.3">
+			<position x="0.000000" y="0.326621" z="0.000000"/>
+			<rotation angle="0.000000">
+				<axis x="0.000000" y="-1.000000" z="0.000000"/>
+			</rotation>
+		</bone>
+		<bone id="6" name="Index.3">
+			<position x="0.000000" y="0.304340" z="-0.000000"/>
+			<rotation angle="0.056844">
+				<axis x="0.355402" y="0.166466" z="-0.919771"/>
+			</rotation>
+		</bone>
+		<bone id="14" name="Thumb.3">
+			<position x="0.000000" y="0.286689" z="0.000000"/>
+			<rotation angle="0.185649">
+				<axis x="-0.977472" y="0.141885" z="-0.156258"/>
+			</rotation>
+		</bone>
+		<bone id="10" name="Middle.3">
+			<position x="-0.000000" y="0.382163" z="-0.000000"/>
+			<rotation angle="0.000000">
+				<axis x="0.000000" y="-1.000000" z="0.000000"/>
+			</rotation>
+		</bone>
+		<bone id="13" name="Little.3">
+			<position x="-0.000000" y="0.214711" z="-0.000000"/>
+			<rotation angle="0.070560">
+				<axis x="-0.000065" y="-0.000076" z="1.000000"/>
+			</rotation>
+		</bone>
+	</bones>
+	<bonehierarchy>
+		<boneparent bone="Ring.2" parent="Ring.1" />
+		<boneparent bone="Index.2" parent="Index.1" />
+		<boneparent bone="Thumb.2" parent="Thumb.1" />
+		<boneparent bone="Middle.2" parent="Middle.1" />
+		<boneparent bone="Little.2" parent="Little.1" />
+		<boneparent bone="Ring.3" parent="Ring.2" />
+		<boneparent bone="Index.3" parent="Index.2" />
+		<boneparent bone="Thumb.3" parent="Thumb.2" />
+		<boneparent bone="Middle.3" parent="Middle.2" />
+		<boneparent bone="Little.3" parent="Little.2" />
+	</bonehierarchy>
+</skeleton>

@@ -1,0 +1,643 @@
+[05:24:58] *********Axiom 3D Engine Log *************
+Copyright Copyright ? 2003-2012 Axiom Rendering Engine Project Team.
+Version: 0.8.3376.12322
+Operating System: Microsoft Windows NT 6.1.7601 Service Pack 1
+.Net Framework: 4.0.30319.18444
+
+[05:24:58] *-*-* Axiom Initializing
+[05:24:58] ArchiveFactory for archive type ZipFile registered.
+[05:24:58] ArchiveFactory for archive type Folder registered.
+[05:24:58] Registering ResourceManager for type HighLevelGpuProgram
+[05:24:58] Creating resource group General
+[05:24:58] Creating resource group Internal
+[05:24:58] Creating resource group Bootstrap
+[05:24:58] Creating resource group AutoDetect
+[05:24:58] SceneManagerFactory for type 'DefaultSceneManager' registered
+[05:24:58] Registering ScriptLoader for patterns *.program *.material 
+[05:24:58] Registering ResourceManager for type Material
+[05:24:58] Registering ResourceManager for type Mesh
+[05:24:58] Registering ResourceManager for type Skeleton
+[05:24:58] Registering ScriptLoader for patterns *.particle 
+[05:24:58] Win32 Platform Manager Loaded.
+[05:24:58] Registering ScriptLoader for patterns *.fontdef 
+[05:24:58] Registering ResourceManager for type Font
+[05:24:58] Registering ScriptLoader for patterns *.overlay 
+[05:24:58] OverlayElementFactory for type 'BorderPanel' registered.
+[05:24:58] OverlayElementFactory for type 'TextArea' registered.
+[05:24:58] OverlayElementFactory for type 'Panel' registered.
+[05:24:58] Registering ScriptLoader for patterns *.compositor 
+[05:24:58] Registering ResourceManager for type Compositor
+[05:24:58] Registering ScriptLoader for patterns *.os 
+[05:24:58] Could not load file or assembly 'file:///C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\fglove.dll' or one of its dependencies. The module was expected to contain an assembly manifest.
+[05:24:58] Could not load file or assembly 'file:///C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\FreeImage.dll' or one of its dependencies. The module was expected to contain an assembly manifest.
+[05:24:59] Could not load file or assembly 'file:///C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\RiftDotNet.x64.dll' or one of its dependencies. An attempt was made to load a program with an incorrect format.
+[05:24:59] Could not load file or assembly 'file:///C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\zlib1.dll' or one of its dependencies. The module was expected to contain an assembly manifest.
+[05:24:59] FreeImage Version: 3.14.1
+[05:24:59] This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+[05:24:59]  Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,bay,bmq,cr2,crw,cs1,dc2,dcr,dng,erf,fff,hdr,k25,kdc,mdc,mos,mrw,nef,orf,pef,pxn,raf,raw,rdc,sr2,srf,arw,3fr,cine,ia,kc2,mef,nrw,qtk,rw2,sti,drf,dsc,ptx,cap,iiq,rwz
+[05:24:59] Loaded plugin: Axiom FreeImage Codecs Plugin
+[05:24:59] Particle Emitter type 'Box' registered.
+[05:24:59] Particle Emitter type 'Point' registered.
+[05:24:59] Particle Emitter type 'Cylinder' registered.
+[05:24:59] Particle Emitter type 'Ellipsoid' registered.
+[05:24:59] Particle Emitter type 'HollowEllipsoid' registered.
+[05:24:59] Particle Emitter type 'Ring' registered.
+[05:24:59] Particle Affector type 'LinearForce' registered.
+[05:24:59] Particle Affector type 'ColourFader' registered.
+[05:24:59] Particle Affector type 'ColourFader2' registered.
+[05:24:59] Particle Affector type 'ColourImage' registered.
+[05:24:59] Particle Affector type 'ColourInterpolator' registered.
+[05:24:59] Particle Affector type 'Scaler' registered.
+[05:24:59] Particle Affector type 'Rotator' registered.
+[05:24:59] Particle Affector type 'DeflectorPlane' registered.
+[05:24:59] Particle Affector type 'DirectionRandomizer' registered.
+[05:24:59] Loaded plugin: Axiom ParticleFX Plugin
+[05:24:59] Axiom OpenGL (OpenTK) Rendering Subsystem created.
+[05:24:59] OpenGL : RenderSystem Option: Display Frequency = N/A
+[05:24:59] OpenGL : RenderSystem Option: Color Depth = 32
+[05:24:59] Loaded plugin: Axiom OpenGL (OpenTK) Rendering Subsystem
+[05:24:59] Factory EntityFactory registered for MovableObjectType 'Entity'.
+[05:24:59] Factory LightFactory registered for MovableObjectType 'Light'.
+[05:24:59] Factory BillboardSetFactory registered for MovableObjectType 'BillboardSet'.
+[05:24:59] Factory ManualObjectFactory registered for MovableObjectType 'ManualObject'.
+[05:24:59] Factory BillboardChainFactory registered for MovableObjectType 'BillboardChain'.
+[05:24:59] Factory RibbonTrailFactory registered for MovableObjectType 'RibbonTrail'.
+[05:24:59] Factory MovableTextFactory registered for MovableObjectType 'MovableText'.
+[05:24:59] OpenGL : RenderSystem Option: Video Mode = 1920 x 1080
+[05:24:59] OpenGL : RenderSystem Option: Color Depth = 32
+[05:24:59] OpenGL : RenderSystem Option: Full Screen = Yes
+[05:24:59] OpenGL : RenderSystem Option: Display Frequency = 75
+[05:24:59] OpenGL : RenderSystem Option: VSync = Yes
+[05:24:59] OpenGL : RenderSystem Option: FSAA = 4
+[05:24:59] OpenGL : RenderSystem Option: RTT Preferred Mode = PBuffer
+[05:24:59] CPU Identifier & Features
+[05:24:59] -------------------------
+[05:24:59] CPU Identification not available
+[05:24:59]  *     SSE1: False
+[05:24:59]  *     SSE2: False
+[05:24:59]  *     SSE3: False
+[05:24:59]  *    SSSE3: False
+[05:24:59]  *    SSSE3: False
+[05:24:59]  *    SSSE3: False
+[05:24:59]  *    SSSE3: False
+[05:24:59] -------------------------
+[05:24:59] *** Starting OpenTKGL Subsystem ***
+[05:24:59] GLRenderSystem.CreateRenderWindow "Axiom Render Window", 1920x1080 fullscreen miscParams:  colorDepth = 32  vsync = Yes  fsaa = 4  title = Axiom Render Window 
+[05:24:59] ***************************
+[05:24:59] *** GL Renderer Started ***
+[05:24:59] ***************************
+[05:24:59] Vendor: NVIDIA
+[05:24:59] Video Board: GeForce GT 220/PCIe/SSE2
+[05:24:59] Version: 3.3.0
+[05:24:59] Extensions supported: 
+[05:24:59] GL_ARB_arrays_of_arrays
+[05:24:59] GL_ARB_base_instance
+[05:24:59] GL_ARB_blend_func_extended
+[05:24:59] GL_ARB_clear_buffer_object
+[05:24:59] GL_ARB_color_buffer_float
+[05:24:59] GL_ARB_compatibility
+[05:24:59] GL_ARB_compressed_texture_pixel_storage
+[05:24:59] GL_ARB_conservative_depth
+[05:24:59] GL_ARB_copy_buffer
+[05:24:59] GL_ARB_copy_image
+[05:24:59] GL_ARB_debug_output
+[05:24:59] GL_ARB_depth_buffer_float
+[05:24:59] GL_ARB_depth_clamp
+[05:24:59] GL_ARB_depth_texture
+[05:24:59] GL_ARB_draw_buffers
+[05:24:59] GL_ARB_draw_buffers_blend
+[05:24:59] GL_ARB_draw_elements_base_vertex
+[05:24:59] GL_ARB_draw_instanced
+[05:24:59] GL_ARB_ES2_compatibility
+[05:24:59] GL_ARB_ES3_compatibility
+[05:24:59] GL_ARB_explicit_attrib_location
+[05:24:59] GL_ARB_explicit_uniform_location
+[05:24:59] GL_ARB_fragment_coord_conventions
+[05:24:59] GL_ARB_fragment_layer_viewport
+[05:24:59] GL_ARB_fragment_program
+[05:24:59] GL_ARB_fragment_program_shadow
+[05:24:59] GL_ARB_fragment_shader
+[05:24:59] GL_ARB_framebuffer_no_attachments
+[05:24:59] GL_ARB_framebuffer_object
+[05:24:59] GL_ARB_framebuffer_sRGB
+[05:24:59] GL_ARB_geometry_shader4
+[05:24:59] GL_ARB_get_program_binary
+[05:24:59] GL_ARB_half_float_pixel
+[05:24:59] GL_ARB_half_float_vertex
+[05:24:59] GL_ARB_imaging
+[05:24:59] GL_ARB_instanced_arrays
+[05:24:59] GL_ARB_internalformat_query
+[05:24:59] GL_ARB_internalformat_query2
+[05:24:59] GL_ARB_invalidate_subdata
+[05:24:59] GL_ARB_map_buffer_alignment
+[05:24:59] GL_ARB_map_buffer_range
+[05:24:59] GL_ARB_multisample
+[05:24:59] GL_ARB_multitexture
+[05:24:59] GL_ARB_occlusion_query
+[05:24:59] GL_ARB_occlusion_query2
+[05:24:59] GL_ARB_pixel_buffer_object
+[05:24:59] GL_ARB_point_parameters
+[05:24:59] GL_ARB_point_sprite
+[05:24:59] GL_ARB_program_interface_query
+[05:24:59] GL_ARB_provoking_vertex
+[05:24:59] GL_ARB_robust_buffer_access_behavior
+[05:24:59] GL_ARB_robustness
+[05:24:59] GL_ARB_sample_shading
+[05:24:59] GL_ARB_sampler_objects
+[05:24:59] GL_ARB_seamless_cube_map
+[05:24:59] GL_ARB_separate_shader_objects
+[05:24:59] GL_ARB_shader_bit_encoding
+[05:24:59] GL_ARB_shader_objects
+[05:24:59] GL_ARB_shader_texture_lod
+[05:24:59] GL_ARB_shading_language_100
+[05:24:59] GL_ARB_shading_language_420pack
+[05:24:59] GL_ARB_shading_language_include
+[05:24:59] GL_ARB_shading_language_packing
+[05:24:59] GL_ARB_shadow
+[05:24:59] GL_ARB_stencil_texturing
+[05:24:59] GL_ARB_sync
+[05:24:59] GL_ARB_texture_border_clamp
+[05:24:59] GL_ARB_texture_buffer_object
+[05:24:59] GL_ARB_texture_buffer_range
+[05:24:59] GL_ARB_texture_compression
+[05:24:59] GL_ARB_texture_compression_rgtc
+[05:24:59] GL_ARB_texture_cube_map
+[05:24:59] GL_ARB_texture_cube_map_array
+[05:24:59] GL_ARB_texture_env_add
+[05:24:59] GL_ARB_texture_env_combine
+[05:24:59] GL_ARB_texture_env_crossbar
+[05:24:59] GL_ARB_texture_env_dot3
+[05:24:59] GL_ARB_texture_float
+[05:24:59] GL_ARB_texture_gather
+[05:24:59] GL_ARB_texture_mirrored_repeat
+[05:24:59] GL_ARB_texture_multisample
+[05:24:59] GL_ARB_texture_non_power_of_two
+[05:24:59] GL_ARB_texture_query_levels
+[05:24:59] GL_ARB_texture_query_lod
+[05:24:59] GL_ARB_texture_rectangle
+[05:24:59] GL_ARB_texture_rg
+[05:24:59] GL_ARB_texture_rgb10_a2ui
+[05:24:59] GL_ARB_texture_storage
+[05:24:59] GL_ARB_texture_storage_multisample
+[05:24:59] GL_ARB_texture_swizzle
+[05:24:59] GL_ARB_texture_view
+[05:24:59] GL_ARB_timer_query
+[05:24:59] GL_ARB_transform_feedback2
+[05:24:59] GL_ARB_transform_feedback_instanced
+[05:24:59] GL_ARB_transpose_matrix
+[05:24:59] GL_ARB_uniform_buffer_object
+[05:24:59] GL_ARB_vertex_array_bgra
+[05:24:59] GL_ARB_vertex_array_object
+[05:24:59] GL_ARB_vertex_attrib_binding
+[05:24:59] GL_ARB_vertex_buffer_object
+[05:24:59] GL_ARB_vertex_program
+[05:24:59] GL_ARB_vertex_shader
+[05:24:59] GL_ARB_vertex_type_2_10_10_10_rev
+[05:24:59] GL_ARB_viewport_array
+[05:24:59] GL_ARB_window_pos
+[05:24:59] GL_ATI_draw_buffers
+[05:24:59] GL_ATI_texture_float
+[05:24:59] GL_ATI_texture_mirror_once
+[05:24:59] GL_S3_s3tc
+[05:24:59] GL_EXT_texture_env_add
+[05:24:59] GL_EXT_abgr
+[05:24:59] GL_EXT_bgra
+[05:24:59] GL_EXT_bindable_uniform
+[05:24:59] GL_EXT_blend_color
+[05:24:59] GL_EXT_blend_equation_separate
+[05:24:59] GL_EXT_blend_func_separate
+[05:24:59] GL_EXT_blend_minmax
+[05:24:59] GL_EXT_blend_subtract
+[05:24:59] GL_EXT_compiled_vertex_array
+[05:24:59] GL_EXT_Cg_shader
+[05:24:59] GL_EXT_depth_bounds_test
+[05:24:59] GL_EXT_direct_state_access
+[05:24:59] GL_EXT_draw_buffers2
+[05:24:59] GL_EXT_draw_instanced
+[05:24:59] GL_EXT_draw_range_elements
+[05:24:59] GL_EXT_fog_coord
+[05:24:59] GL_EXT_framebuffer_blit
+[05:24:59] GL_EXT_framebuffer_multisample
+[05:24:59] GL_EXTX_framebuffer_mixed_formats
+[05:24:59] GL_EXT_framebuffer_multisample_blit_scaled
+[05:24:59] GL_EXT_framebuffer_object
+[05:24:59] GL_EXT_framebuffer_sRGB
+[05:24:59] GL_EXT_geometry_shader4
+[05:24:59] GL_EXT_gpu_program_parameters
+[05:24:59] GL_EXT_gpu_shader4
+[05:24:59] GL_EXT_multi_draw_arrays
+[05:24:59] GL_EXT_packed_depth_stencil
+[05:24:59] GL_EXT_packed_float
+[05:24:59] GL_EXT_packed_pixels
+[05:24:59] GL_EXT_pixel_buffer_object
+[05:24:59] GL_EXT_point_parameters
+[05:24:59] GL_EXT_provoking_vertex
+[05:24:59] GL_EXT_rescale_normal
+[05:24:59] GL_EXT_secondary_color
+[05:24:59] GL_EXT_separate_shader_objects
+[05:24:59] GL_EXT_separate_specular_color
+[05:24:59] GL_EXT_shadow_funcs
+[05:24:59] GL_EXT_stencil_two_side
+[05:24:59] GL_EXT_stencil_wrap
+[05:24:59] GL_EXT_texture3D
+[05:24:59] GL_EXT_texture_array
+[05:24:59] GL_EXT_texture_buffer_object
+[05:24:59] GL_EXT_texture_compression_dxt1
+[05:24:59] GL_EXT_texture_compression_latc
+[05:24:59] GL_EXT_texture_compression_rgtc
+[05:24:59] GL_EXT_texture_compression_s3tc
+[05:24:59] GL_EXT_texture_cube_map
+[05:24:59] GL_EXT_texture_edge_clamp
+[05:24:59] GL_EXT_texture_env_combine
+[05:24:59] GL_EXT_texture_env_dot3
+[05:24:59] GL_EXT_texture_filter_anisotropic
+[05:24:59] GL_EXT_texture_format_BGRA8888
+[05:24:59] GL_EXT_texture_integer
+[05:24:59] GL_EXT_texture_lod
+[05:24:59] GL_EXT_texture_lod_bias
+[05:24:59] GL_EXT_texture_mirror_clamp
+[05:24:59] GL_EXT_texture_object
+[05:24:59] GL_EXT_texture_shared_exponent
+[05:24:59] GL_EXT_texture_sRGB
+[05:24:59] GL_EXT_texture_sRGB_decode
+[05:24:59] GL_EXT_texture_storage
+[05:24:59] GL_EXT_texture_swizzle
+[05:24:59] GL_EXT_texture_type_2_10_10_10_REV
+[05:24:59] GL_EXT_timer_query
+[05:24:59] GL_EXT_transform_feedback2
+[05:24:59] GL_EXT_vertex_array
+[05:24:59] GL_EXT_vertex_array_bgra
+[05:24:59] GL_EXT_import_sync_object
+[05:24:59] GL_IBM_rasterpos_clip
+[05:24:59] GL_IBM_texture_mirrored_repeat
+[05:24:59] GL_KHR_debug
+[05:24:59] GL_KTX_buffer_region
+[05:24:59] GL_NV_alpha_test
+[05:24:59] GL_NV_blend_minmax
+[05:24:59] GL_NV_blend_square
+[05:24:59] GL_NV_complex_primitives
+[05:24:59] GL_NV_conditional_render
+[05:24:59] GL_NV_copy_depth_to_color
+[05:24:59] GL_NV_copy_image
+[05:24:59] GL_NV_depth_buffer_float
+[05:24:59] GL_NV_depth_clamp
+[05:24:59] GL_NV_ES1_1_compatibility
+[05:24:59] GL_NV_explicit_multisample
+[05:24:59] GL_NV_fbo_color_attachments
+[05:24:59] GL_NV_fence
+[05:24:59] GL_NV_float_buffer
+[05:24:59] GL_NV_fog_distance
+[05:24:59] GL_NV_fragdepth
+[05:24:59] GL_NV_fragment_program
+[05:24:59] GL_NV_fragment_program_option
+[05:24:59] GL_NV_fragment_program2
+[05:24:59] GL_NV_framebuffer_multisample_coverage
+[05:24:59] GL_NV_geometry_shader4
+[05:24:59] GL_NV_gpu_program4
+[05:24:59] GL_NV_gpu_program4_1
+[05:24:59] GL_NV_half_float
+[05:24:59] GL_NV_light_max_exponent
+[05:24:59] GL_NV_multisample_coverage
+[05:24:59] GL_NV_multisample_filter_hint
+[05:24:59] GL_NV_occlusion_query
+[05:24:59] GL_NV_packed_depth_stencil
+[05:24:59] GL_NV_parameter_buffer_object
+[05:24:59] GL_NV_parameter_buffer_object2
+[05:24:59] GL_NV_path_rendering
+[05:24:59] GL_NV_pixel_data_range
+[05:24:59] GL_NV_point_sprite
+[05:24:59] GL_NV_primitive_restart
+[05:24:59] GL_NV_register_combiners
+[05:24:59] GL_NV_register_combiners2
+[05:24:59] GL_NV_shader_buffer_load
+[05:24:59] GL_NV_texgen_reflection
+[05:24:59] GL_NV_texture_barrier
+[05:24:59] GL_NV_texture_compression_vtc
+[05:24:59] GL_NV_texture_env_combine4
+[05:24:59] GL_NV_texture_expand_normal
+[05:24:59] GL_NV_texture_lod_clamp
+[05:24:59] GL_NV_texture_multisample
+[05:24:59] GL_NV_texture_rectangle
+[05:24:59] GL_NV_texture_shader
+[05:24:59] GL_NV_texture_shader2
+[05:24:59] GL_NV_texture_shader3
+[05:24:59] GL_NV_transform_feedback
+[05:24:59] GL_NV_transform_feedback2
+[05:24:59] GL_NV_vertex_array_range
+[05:24:59] GL_NV_vertex_array_range2
+[05:24:59] GL_NV_vertex_buffer_unified_memory
+[05:24:59] GL_NV_vertex_program
+[05:24:59] GL_NV_vertex_program1_1
+[05:24:59] GL_NV_vertex_program2
+[05:24:59] GL_NV_vertex_program2_option
+[05:24:59] GL_NV_vertex_program3
+[05:24:59] GL_NVX_conditional_render
+[05:24:59] GL_NVX_gpu_memory_info
+[05:24:59] GL_OES_compressed_paletted_texture
+[05:24:59] GL_OES_depth24
+[05:24:59] GL_OES_depth32
+[05:24:59] GL_OES_depth_texture
+[05:24:59] GL_OES_element_index_uint
+[05:24:59] GL_OES_fbo_render_mipmap
+[05:24:59] GL_OES_get_program_binary
+[05:24:59] GL_OES_mapbuffer
+[05:24:59] GL_OES_packed_depth_stencil
+[05:24:59] GL_OES_point_size_array
+[05:24:59] GL_OES_point_sprite
+[05:24:59] GL_OES_rgb8_rgba8
+[05:24:59] GL_OES_read_format
+[05:24:59] GL_OES_standard_derivatives
+[05:24:59] GL_OES_texture_3D
+[05:24:59] GL_OES_texture_float
+[05:24:59] GL_OES_texture_float_linear
+[05:24:59] GL_OES_texture_half_float
+[05:24:59] GL_OES_texture_half_float_linear
+[05:24:59] GL_OES_texture_npot
+[05:24:59] GL_OES_vertex_array_object
+[05:24:59] GL_OES_vertex_half_float
+[05:24:59] GL_SGIS_generate_mipmap
+[05:24:59] GL_SGIS_texture_lod
+[05:24:59] GL_SGIX_depth_texture
+[05:24:59] GL_SGIX_shadow
+[05:24:59] GL_SUN_slice_accum
+[05:24:59] GL_WIN_swap_hint
+[05:24:59] WGL_EXT_swap_control
+[05:24:59] 
+[05:24:59] GLSL support detected
+[05:24:59] GL: Using PBuffers for rendering to textures
+[05:24:59] ---RenderSystem capabilities---
+[05:24:59] 	-GPU Vendor: Unknown
+[05:24:59] 	-Device Name: 
+[05:24:59] 	-Driver Version: 0.0.0.0
+[05:24:59] 	-Available texture units: 32
+[05:24:59] 	-Maximum lights available: 8
+[05:24:59] 	-Hardware generation of mip-maps: yes
+[05:24:59] 	-Texture blending: yes
+[05:24:59] 	-Anisotropic texture filtering: yes
+[05:24:59] 	-Dot product texture operation: yes
+[05:24:59] 	-Cube Mapping: yes
+[05:24:59] 	-Hardware stencil buffer: yes
+[05:24:59] 		-Stencil depth: 8 bits
+[05:24:59] 		-Two sided stencil support: yes
+[05:24:59] 		-Wrap stencil values: yes
+[05:24:59] 	-Hardware vertex/index buffers: yes
+[05:24:59] 	-Vertex programs: yes
+[05:24:59] 		-Max vertex program version: vp40
+[05:24:59] 	-Fragment programs: yes
+[05:24:59] 		-Max fragment program version: fp40
+[05:24:59] 	-Texture compression: yes
+[05:24:59] 		-DXT: yes
+[05:24:59] 		-VTC: yes
+[05:24:59] 	-Scissor rectangle: yes
+[05:24:59] 	-Hardware Occlusion Query: yes
+[05:24:59] 	-User clip planes: yes
+[05:24:59] 	-VertexElementType.UBYTE4: yes
+[05:24:59] 	-Infinite far plane projection: yes
+[05:24:59] 	-Max Point Size: 63.375 
+[05:24:59] 	-Vertex texture fetch: yes 
+[05:24:59] 		-Max vertex textures: 32
+[05:24:59] 		-Vertex textures shared: yes
+[05:24:59] Registering ResourceManager for type Texture
+[05:24:59] Using FSAA from GL_ARB_multisample extension.
+[05:24:59] Particle Renderer type 'billboard' registered.
+[05:24:59] Added resource location 'media' of type 'Folder' to resource group 'General' with recursive option
+[05:24:59] Initializing all resource groups:
+[05:24:59] Initializing resource group AutoDetect.
+[05:24:59] Parsing scripts for resource group AutoDetect
+[05:24:59] Finished parsing scripts for resource group AutoDetect
+[05:24:59] 	AutoDetect initialized.
+[05:24:59] Initializing resource group Bootstrap.
+[05:24:59] Parsing scripts for resource group Bootstrap
+[05:24:59] Finished parsing scripts for resource group Bootstrap
+[05:24:59] 	Bootstrap initialized.
+[05:24:59] Initializing resource group General.
+[05:24:59] Parsing scripts for resource group General
+[05:24:59] Parsing script Materials\Examples.program
+[05:24:59] Parsing script HandModelData\Arm.material
+[05:24:59] Error in material lambert1 at line 15  of C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\media\HandModelData\Arm.material: Bad color_op_ex attribute, wrong number of parameters (expected 3 or 10).
+[05:24:59] Parsing script HandModelData\preview.material
+[05:24:59] Error in material basic at line 14  of C:\Users\YAM\Documents\Visual Studio 2010\Projects\NeuroscienceExperiment\NeuroscienceExperiment\bin\Debug\media\HandModelData\preview.material: Bad color_op_ex attribute, wrong number of parameters (expected 3 or 10).
+[05:24:59] Parsing script Materials\Aurora.material
+[05:24:59] Parsing script Materials\BumpyMetal.material
+[05:24:59] Parsing script Materials\CloudySkyBox.material
+[05:24:59] Parsing script Materials\Droplet.material
+[05:24:59] Parsing script Materials\EveningSkyBox.material
+[05:24:59] Parsing script Materials\Examples-DynTex.material
+[05:24:59] Parsing script Materials\Flair2.material
+[05:24:59] Parsing script Materials\Flare.material
+[05:24:59] Parsing script Materials\FlarePointSprite.material
+[05:24:59] Parsing script Materials\MorningSkyBox.material
+[05:24:59] Parsing script Materials\Ocean.material
+[05:25:00] GLSL : GLSL/OceanVS : compiled.
+[05:25:00] GLSL : GLSL/OceanFS : compiled.
+[05:25:00] GLSL : GLSL/Ocean2VS : compiled.
+[05:25:00] GLSL : GLSL/Ocean2FS : compiled.
+[05:25:00] Parsing script Materials\OgreHead.material
+[05:25:00] Parsing script Materials\Penguin.material
+[05:25:00] Parsing script Materials\Razor.material
+[05:25:00] Parsing script Materials\Rockwall.material
+[05:25:00] Parsing script Materials\smoke.material
+[05:25:00] Parsing script Materials\SphereMappedRustySteel.material
+[05:25:00] Parsing script Materials\StormySkyBox.material
+[05:25:00] Parsing script Particles\Aureola.particle
+[05:25:00] Parsing script Particles\Fireworks.particle
+[05:25:00] Parsing script Particles\GreenyNimbus.particle
+[05:25:00] Parsing script Particles\PurpleFountain.particle
+[05:25:00] Parsing script Particles\Rain.particle
+[05:25:00] Parsing script Particles\smoke.particle
+[05:25:00] Parsing script Particles\Snow.particle
+[05:25:00] Parsing script Materials\JitterSampleDisplay.overlay
+[05:25:00] Bad vert_align attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad width attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad height attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad element attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad { attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'import * from "SdkTrays.overlay"'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(ArbiterCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(ContactCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(IslandCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(BodyCount)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(MultiThreaded)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad caption attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(Gen)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(CollisionDetect)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(BuildIslands)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(HandleArbiter)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(UpdateContacts)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(PreStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(DeactivateBodies)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(IntegrateForces)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(Integrate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(PostStep)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad caption attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(Separator)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(TotalPhysicsTime)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad font_name attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad char_height attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad space_width attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad colour attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block 'element TextArea(PhysicsFramerate)'. Reason: Invalid overlay attribute.
+[05:25:00] Bad metrics_mode attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad horz_align attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad vert_align attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad top attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad left attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad width attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad height attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Bad material attribute in block '}'. Reason: Invalid overlay attribute.
+[05:25:00] Finished parsing scripts for resource group General
+[05:25:00] 	General initialized.
+[05:25:00] Initializing resource group Internal.
+[05:25:00] Parsing scripts for resource group Internal
+[05:25:00] Finished parsing scripts for resource group Internal
+[05:25:00] 	Internal initialized.
+[05:25:00] Creating viewport rendering from camera 'LeftCamera', relative dimensions L:0,T:0,W:0.5,H:1, Z-Order:0
+[05:25:00] Viewport for camera 'LeftCamera' - actual dimensions L:0,T:0,W:960,H:1080, AR:1.333333
+[05:25:00] Creating viewport rendering from camera 'RightCamera', relative dimensions L:0.45,T:0,W:0.5,H:1, Z-Order:1
+[05:25:00] Viewport for camera 'RightCamera' - actual dimensions L:863,T:0,W:960,H:1080, AR:1.333333
+[05:25:00] Mesh: Loading 'Arm.mesh'...
+[05:25:00] Texture: arm.png: Loading 1 faces( PF_A8R8G8B8, 2048x2048x1 ) with 5 hardware generated mipmaps from an Image.
+	 Internal format is PF_A8R8G8B8 , 2048x2048x1.
+[05:25:00] Mesh: Loading '5DTRHand.mesh'...
+[05:25:00] Skeleton: Loading '5DTRHand.skeleton'...
+[05:25:00] Texture: tex.png: Loading 1 faces( PF_R8G8B8, 2048x2048x1 ) with 5 hardware generated mipmaps from an Image.
+	 Internal format is PF_X8R8G8B8 , 2048x2048x1.
+[05:25:00] WARNING: Mesh '5DTRHand.mesh' includes vertices with more than 4 bone assignments.  The lowest weighted assignments beyond this limit have been removed.
+[05:25:00] Mesh: Loading '5DTLHand.mesh'...
+[05:25:00] Skeleton: Loading '5DTLHand.skeleton'...
+[05:25:00] WARNING: Mesh '5DTLHand.mesh' includes vertices with more than 4 bone assignments.  The lowest weighted assignments beyond this limit have been removed.
+[05:25:01] WARNING: Texture instance 'DynamicTexture' was defined as manually loaded, but no manual loader was provided. This Resource will be lost if it has to be reloaded.
+[05:26:37] Final Stats [Axiom Render Window]: FPS <A,B,W> : 30.02 36.06 .00
+[05:26:37] *-*-* Axiom Shutdown Initiated.
+[05:26:37] Final Stats [DynamicTexture/0/0/0]: FPS <A,B,W> : 30.01 35.75 .00
+[05:26:37] Final Stats [DynamicTexture/0/1/0]: FPS <A,B,W> : 30.01 35.75 .00
+[05:26:37] Final Stats [DynamicTexture/0/2/0]: FPS <A,B,W> : 30.01 35.75 .00
+[05:26:37] Unregistering ScriptLoader for patterns *.compositor 
+[05:26:37] Unregistering ResourceManager for type Compositor
+[05:26:37] Unregistering ScriptLoader for patterns *.overlay 
+[05:26:37] Unregistering ResourceManager for type Font
+[05:26:37] Unregistering ScriptLoader for patterns *.fontdef 
+[05:26:37] Unregistering ResourceManager for type Skeleton
+[05:26:37] Unregistering ResourceManager for type Mesh
+[05:26:37] Unregistering ResourceManager for type Material
+[05:26:37] Unregistering ScriptLoader for patterns *.program *.material 
+[05:26:37] Unregistering ResourceManager for type HighLevelGpuProgram
+[05:26:37] Unloading plugin: Axiom OpenGL (OpenTK) Rendering Subsystem
+[05:26:37] Unregistering ResourceManager for type Texture
+[05:26:37] *** Stopping OpenTKGL Subsystem ***
+[05:26:37] Unloading plugin: Axiom ParticleFX Plugin
+[05:26:37] Unloading plugin: Axiom FreeImage Codecs Plugin
+[05:26:37] Win32 Platform Manager Shutdown.
+[05:26:37] *-*-* Axiom Shutdown Complete.
